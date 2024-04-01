@@ -1,0 +1,50 @@
+$s: #E1EDE6;
+$g: #598D66;
+$b: #2C2D35;
+%text{
+    font-family: "Raleway", sans-serif;
+}
+body{
+    margin: 0;
+}
+.head{
+    background-color: $s;
+    height: 100%;
+}
+
+.head-line{
+    padding: 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-title{
+    color: $g;
+    margin-left: 1vh;
+    @extend %text;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    align-items: center; 
+}
+.nav-item{
+    text-decoration: none;
+    margin-right: 7vh;
+    color: $b;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.nav-item:hover {
+    color: $g;
+}
+.korz-img{
+    height: 2vw;
+    width: 2vw;
+}

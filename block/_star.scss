@@ -1,0 +1,51 @@
+.stars{
+    background-image: url(image/bg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.star-title{
+    color: white;
+    @extend %text;
+    font-size: 2.5vw;
+    font-weight: 500;
+    width: 30%;
+}
+.star-pr{
+    padding-left: 5%;
+}
+.star-logo{
+    display: flex;
+    align-items: center;
+    padding: 5% 0 2% 0;
+}
+.star-subtitle{
+    color: white;
+    @extend %text;
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: 45%;
+    padding: 0 0 2% 0;
+}
+.star-sub{
+    color: white;
+    @extend %text;
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: 45%;
+    padding: 0 0 7% 0;
+}
+.star-btn{
+    display: inline-block;
+    padding: 2% 6%;
+    color: $b;
+    @extend %text;
+    font-size: 1.5vw;
+    font-weight: 500;
+    border: none;
+    background-color: #EEDB6D;
+    cursor: pointer;
+}
+.star-button{
+    padding: 0 0 3%;
+}

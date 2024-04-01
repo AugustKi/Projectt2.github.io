@@ -1,0 +1,117 @@
+$o: #86928B;
+.site{
+    background-color: $s;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr 1fr 1fr 3fr;
+}
+.l-name{
+    color: $g;
+    @extend %text;
+    font-weight: 700;
+    font-size: 1.4vw;
+    padding-left: 3%;
+}
+.logo-z{
+    display: flex;
+    align-items: center;
+}
+.site-1{
+    padding: 3% 30%;
+    width: 50%;
+}
+.phone{
+    color: $b;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding-top: 10%;
+}
+.master{
+    color: $o;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.site-2{
+    padding: 10% 0%;
+    width: 0%;
+}
+.r-name{
+    color: $b;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.str{
+    text-decoration: none;
+    color: $o;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.str-n{
+    padding-top: 10%;
+}
+.site-3{
+    padding: 10% 0%;
+    width: 0%;
+}
+.n-name{
+    color: $b;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.year{
+    text-decoration: none;
+    color: $o;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.god{
+    padding-top: 10%;
+}
+.site-4{
+    padding: 10% 0%;
+    width: 30%;
+}
+.o-name{
+    color: $b;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.prof{
+    text-decoration: none;
+    color: $o;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.mi{
+    padding-top: 10%;
+}
+.site-5{
+    padding: 5% 10% 0 50%;
+}
+.znaki{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.znak-1{
+    padding-right: 1%;
+}
+.z-text{
+    color: $o;
+    @extend %text;
+    font-weight: 500;
+    font-size: 1vw;
+    padding: 3% 0 0 10%;
+}
+.z-img{
+    height: 2vw;
+    width: 2vw;
+}

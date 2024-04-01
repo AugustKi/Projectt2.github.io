@@ -1,0 +1,44 @@
+.comanda{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.comanda-img{
+    justify-self: end;
+    padding: 5% 5%;
+}
+.c-img{
+    width: 100%;
+    height: 100%;
+}
+.com-text{
+    width: 60%;
+    justify-self: start;
+}
+.com-title{
+    @extend %text;
+    font-weight: 500;
+    font-size: 3.5vw;
+    padding-top: 30%;
+}
+.com-subtitle{
+    color: $b;
+    @extend %text;
+    font-size: 1.3vw;
+    width: 150%;
+    font-weight: 500;
+    padding-top: 10%;
+}
+.people{
+    display: flex;
+    align-items: center;
+    padding: 4% 3% 0 0;
+}
+.ludi{
+    padding: 0 2%;
+    
+}
+.ludi-i{
+    width: 100%;
+    height: 100%;
+}

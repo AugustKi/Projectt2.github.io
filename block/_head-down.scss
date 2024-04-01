@@ -1,0 +1,47 @@
+$ser:#86928B;
+.head-d{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.head-img{
+    justify-self: end;
+}
+.image{
+    width: 95%;
+    height: 95%;
+}
+.head-text{
+    width: 60%;
+    justify-self: start;
+}
+.head-title{
+    @extend %text;
+    font-weight: 500;
+    font-size: 3.5vw;
+    padding-top: 25%;
+}
+.ink{
+    color: $g;
+}
+.head-subtitle{
+    color: $ser;
+    @extend %text;
+    font-size: 1.4vw;
+    width: 150%;
+    font-weight: 500;
+    padding-top: 5%;
+}
+.btn{
+    color: $g;
+    background-color: white;
+    border: 1px solid $g;
+    @extend %text;
+    padding: 5% 20%;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.knp-zcl{
+    padding: 20% 0;
+}

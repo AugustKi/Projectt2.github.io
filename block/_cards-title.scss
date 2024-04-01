@@ -1,0 +1,45 @@
+$w: #D4E8D9;
+$dg:#376B44;
+.cards-titlename{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8% 0 2% 0;
+}
+.card-tname{
+    @extend %text;
+    font-size: 3vw;
+    font-weight: 500;
+    color: $b;
+}
+.tname-buts{
+    display: flex;
+    align-items: center;
+}
+.btt{
+    display: inline-block;
+    padding: 1vh 2vh;
+    color: $b;
+    @extend %text;
+    font-size: 1.4vw;
+    font-weight: 500;
+    border: 1px solid $w;
+    background-color: $w;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.bt{
+    display: inline-block;
+    padding: 1vh 2vh;
+    color: white;
+    @extend %text;
+    font-size: 1.4vw;
+    font-weight: 500;
+    border: 1px solid $dg;
+    background-color: $dg;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.tname-but{
+    padding: 0 2%;
+}
